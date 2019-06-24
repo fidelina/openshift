@@ -30,7 +30,7 @@ openshift_router_selector='node-role.kubernetes.io/infra=true'
 openshift_registry_selector='node-role.kubernetes.io/infra=true'
 #openshift_examples_modify_imagestreams=true
 openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 'challenge': 'true', 'kind': 'HTPasswdPasswordIdentityProvider'}]
-openshift_master_htpasswd_users={'admin': '$apr1$g.m4WXmN$NdCucDHFZUOBO9dO.Py15/', 'developer': '$apr1$jfv8di6s$j.ffZh/JsEfvXsT0Xa6QI1'}
+openshift_master_htpasswd_users={'admin': '****', 'developer': '****'}
 
 openshift_master_default_subdomain=domen.test.local
 openshift_master_cluster_hostname=domen.test.local
